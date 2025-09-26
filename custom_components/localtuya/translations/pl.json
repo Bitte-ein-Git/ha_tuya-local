@@ -94,7 +94,7 @@
             },
             "configure_device": {
                 "title": "Skonfiguruj łączność urządzenia",
-                "description": "Skonfiguruj wszystkie szczegóły urządzenia{for_device}, które są puste (jeśli istnieją), aby umożliwić LocalTuya połączenie się z urządzeniem.",
+                "description": "Skonfiguruj wszystkie szczegóły urządzenia{for_device}, które są puste (jeśli istnieją), aby umożliwić 🗿• Tuya + połączenie się z urządzeniem.",
                 "data": {
                     "friendly_name": "Nazwa Urządzenia",
                     "host": "Adres IP",
@@ -114,7 +114,7 @@
             },
             "device_setup_method": {
                 "title": "Skonfiguruj encje urządzenia",
-                "description": "LocalTuya spróbuje automatycznie znaleść resztę konfiguracji. Jeśli jednak to nie zadziała na Twoim urządzeniu lub chcesz dostosować ustawienia, wybierz opcję „ręczną”.",
+                "description": "🗿• Tuya + spróbuje automatycznie znaleść resztę konfiguracji. Jeśli jednak to nie zadziała na Twoim urządzeniu lub chcesz dostosować ustawienia, wybierz opcję „ręczną”.",
                 "menu_options": {
                     "auto_configure_device":"Automatycznie wykrywaj encje urządzenia",
                     "pick_entity_type": "Skonfiguruj ręcznie enje urządzenia",
@@ -139,7 +139,7 @@
             },
             "choose_template":{
                 "title": "Importuj plik szablonu",
-                "description": "Pliki szablonów znajdują się w katalogu `templates` ([Więcej informacji](https://github.com/xZetsubou/hass-localtuya/discussions/13)).",
+                "description": "Pliki szablonów znajdują się w katalogu `templates` ([Więcej informacji](https://github.com/Bitte-ein-Git/ha_tuya/discussions/13)).",
                 "data": {
                     "templates": "Wybierz szablon"
                 }
@@ -256,5 +256,5 @@
             }
         }
     },
-    "title": "LocalTuya"
+    "title": "🗿• Tuya +"
 }

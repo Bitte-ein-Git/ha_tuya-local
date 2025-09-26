@@ -90,7 +90,7 @@
       },
       "configure_device": {
         "title": "تكوين اتصال الجهاز",
-        "description": "قم بتكوين أي تفاصيل جهاز {for_device} فارغة (إن وجدت) للسماح لـ LocalTuya بالاتصال بالجهاز.",
+        "description": "قم بتكوين أي تفاصيل جهاز {for_device} فارغة (إن وجدت) للسماح لـ 🗿• Tuya + بالاتصال بالجهاز.",
         "data": {
           "friendly_name": "اسم الجهاز",
           "host": "عنوان IP",
@@ -110,7 +110,7 @@
       },
       "device_setup_method": {
         "title": "تكوين كيانات الجهاز",
-        "description": "سيحاول LocalTuya اكتشاف بقية التكوين تلقائيًا. ",
+        "description": "سيحاول 🗿• Tuya + اكتشاف بقية التكوين تلقائيًا. ",
         "menu_options": {
           "auto_configure_device": "اكتشف كيانات الجهاز تلقائيًا",
           "pick_entity_type": "قم بتكوين كيانات الجهاز يدويًا",
@@ -135,12 +135,12 @@
       },
       "choose_template": {
         "title": "استيراد ملف القالب",
-        "description": "توجد ملفات القالب في المجلد `templates` ([لمعلومات أكثر](https://github.com/xZetsubou/hass-localtuya/discussions/13)).",
+        "description": "توجد ملفات القالب في المجلد `templates` ([لمعلومات أكثر](https://github.com/Bitte-ein-Git/ha_tuya/discussions/13)).",
         "data": {
           "templates": "اختيار القالب"
         }
       }
 }
 },
-"title": "LocalTuya"
+"title": "🗿• Tuya +"
 }

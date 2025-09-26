@@ -1,4 +1,4 @@
-"""Diagnostics support for LocalTuya."""
+"""Diagnostics support for 🗿• Tuya +."""
 
 from __future__ import annotations
 

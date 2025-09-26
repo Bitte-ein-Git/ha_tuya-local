@@ -219,7 +219,7 @@ class LocalTuyaEntity(RestoreEntity, pytuya.ContextualLogger):
             # Serial numbers are unique identifiers within a specific domain
             identifiers={(DOMAIN, f"local_{device_config.id}")},
             name=device_config.name,
-            manufacturer="Tuya",
+            manufacturer="🗿• Bitte ein Git!",
             model=f"{device_config.model} ({device_config.id})",
             sw_version=device_config.protocol_version,
         )

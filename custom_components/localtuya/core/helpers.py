@@ -1,5 +1,5 @@
 """
-Helpers functions for HASS-LocalTuya.
+Helpers functions for HASS-🗿• Tuya +.
 """
 
 import asyncio

@@ -3,7 +3,7 @@
     https://developer.tuya.com/en/docs/iot/standarddescription?id=K9i5ql6waswzq
 
     Credits: official HA Tuya integration.
-    Modified by: xZetsubou
+    Modified by: xZetsubou | Customized by heyFordy🗿
 """
 
 from homeassistant.components.sensor import SensorStateClass, SensorDeviceClass
@@ -36,7 +36,7 @@ from ...const import CONF_SCALING as SCALE_FACTOR
 
 
 def localtuya_sensor(unit_of_measurement=None, scale_factor: float = 1) -> dict:
-    """Define LocalTuya Configs for Sensor."""
+    """Define 🗿• Tuya + Configs for Sensor."""
     data = {CONF_UNIT_OF_MEASUREMENT: unit_of_measurement}
     data.update({SCALE_FACTOR: CLOUD_VALUE(scale_factor, "id", "scale")})
 

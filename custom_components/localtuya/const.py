@@ -1,4 +1,4 @@
-"""Constants for localtuya integration."""
+"""Constants for 🗿• Tuya + integration."""
 
 from dataclasses import dataclass
 from typing import Any
@@ -267,7 +267,7 @@ class DictSelector:
 
 @dataclass
 class DeviceConfig:
-    """Represent the main configuration for LocalTuya device."""
+    """Represent the main configuration for 🗿• Tuya + device."""
 
     device_config: dict[str, Any]
 

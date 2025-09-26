@@ -39,7 +39,7 @@
     "options": {
         "step": {
             "init": {
-                "title": "LocalTuya Configuration",
+                "title": "🗿• Tuya + Configuration",
                 "description": "Please select the desired actionSSSS.",
                 "data": {
                     "add_device": "Add a new device",
@@ -137,5 +137,5 @@
             }
         }
     },
-    "title": "LocalTuya"
+    "title": "🗿• Tuya +"
 }
