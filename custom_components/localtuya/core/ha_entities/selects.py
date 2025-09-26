@@ -3,7 +3,7 @@
     https://developer.tuya.com/en/docs/iot/standarddescription?id=K9i5ql6waswzq
 
     Credits: official HA Tuya integration.
-    Modified by: xZetsubou
+    Modified by: xZetsubou | Customized by heyFordy🗿
 """
 
 from .base import (
@@ -937,7 +937,7 @@ SELECTS: dict[str, tuple[LocalTuyaEntity, ...]] = {
             name="Countdown",
             custom_configs=localtuya_selector(COUNT_DOWN_HOURS),
         ),
-        # Gratkit dryer v2 https://github.com/xZetsubou/hass-localtuya/issues/501
+        # Gratkit dryer v2 https://github.com/Bitte-ein-Git/ha_tuya/issues/501
         LocalTuyaEntity(
             id=DPCode.LEDLIGHT,
             entity_category=EntityCategory.CONFIG,

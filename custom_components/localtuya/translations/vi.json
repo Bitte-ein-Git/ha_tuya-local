@@ -1,5 +1,5 @@
 {
-    "title": "LocalTuya",
+    "title": "🗿• Tuya +",
     "config": {
         "abort": {
             "already_configured": "Tài khoản này đã được cấu hình.",
@@ -95,7 +95,7 @@
             },
             "configure_device": {
                 "title": "Cấu hình kết nối thiết bị",
-                "description": "Cấu hình các thông tin thiết bị{for_device} còn thiếu (nếu có) để LocalTuya có thể kết nối.",
+                "description": "Cấu hình các thông tin thiết bị{for_device} còn thiếu (nếu có) để 🗿• Tuya + có thể kết nối.",
                 "data": {
                     "friendly_name": "Tên thiết bị",
                     "host": "Địa chỉ IP",
@@ -115,7 +115,7 @@
             },
             "device_setup_method": {
                 "title": "Cấu hình thực thể thiết bị",
-                "description": "LocalTuya sẽ cố gắng tự động phát hiện cấu hình còn lại. Nếu không hoạt động hoặc muốn tùy chỉnh, chọn `thủ công`.",
+                "description": "🗿• Tuya + sẽ cố gắng tự động phát hiện cấu hình còn lại. Nếu không hoạt động hoặc muốn tùy chỉnh, chọn `thủ công`.",
                 "menu_options": {
                     "auto_configure_device":"Tự động phát hiện thực thể",
                     "pick_entity_type": "Cấu hình thực thể thủ công",
@@ -140,7 +140,7 @@
             },
             "choose_template":{
                 "title": "Nhập file template",
-                "description": "File template nằm trong thư mục `templates` ([Xem thêm](https://github.com/xZetsubou/hass-localtuya/discussions/13)).",
+                "description": "File template nằm trong thư mục `templates` ([Xem thêm](https://github.com/Bitte-ein-Git/ha_tuya/discussions/13)).",
                 "data": {
                     "templates": "Chọn template"
                 }

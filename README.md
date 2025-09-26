@@ -1,60 +1,99 @@
-<a  href="https://www.buymeacoffee.com/mrbanderx3"  target="_blank"><img  src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"  alt="Buy Me A Coffee"  style="height: 30px !important;width: 150px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<div align="center">
+  <br><img src="https://raw.githubusercontent.com/rospogrigio/localtuya/master/img/logo-small.png" alt="Logo" width="256"><br><br>
+</div>
 
----
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+      <h1 style="border-bottom: 0; display: inline-block;">
+        <b>🗿• Tuya +</b></br>
+          <sub><i><u>Home Assistant Integration 🏡</u></i></sub></h1>
+    </summary>
+  </ul>
+</div>
+
+> [!IMPORTANT]
+> Please remove any other "localtuya"-fork before installation!
+> Otherwise, it may not work correctly or could cause unexpected problems.
+
+<hr>
+<div align="center">
+  
+`» handle Tuya devices locally`
+
+`» Supported Sub-devices / Gateway devices`
+
+`» Supports IR remotes through native remote entity`
+
+`» Auto discover/configure devices via Cloud API`
+
+</div>
 
 
-![logo](https://github.com/rospogrigio/localtuya-homeassistant/blob/master/img/logo-small.png)
+## Installation (Easy)
+[![ADD][hacs2]](https://ha-link.heyfordy.de/redirect/hacs_repository/?owner=Bitte-ein-Git&repository=ha_tuya&category=integration)
+## Installation (Manual)
+1. Add this Repository to HACS:
+   - HACS > 3 dots > "Add custom repository"
+   - URL: `Bitte-ein-Git/ha_tuya`
+   - Type: Integration
 
+2. Select "**🗿• Tuya +**".
 
-__A Home Assistant custom Integration for local handling of Tuya-based devices.__
+<hr>
 
-### **Usage and setup [Documentation](https://xzetsubou.github.io/hass-localtuya/)**
+## Configuration
+> [!NOTE]
+> After installation you **have to restart Home Assistant**
 
-<br>
+### Easy Configuration (Link to Config Screen)
+[![ADD][setup2]](https://ha-link.heyfordy.de/redirect/config_flow_start/?domain=localtuya)
+### Manual Configuration
+1. Add a new config entry via UI:
+   - Go to your Home Assistant **Settings**
+   - Select "**Devices & services**"
+   - At the bottom right select "**+ Add integration**"
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=integration&repository=hass-localtuya&owner=xZetsubou)
+2. Select "**🗿• Tuya +**".
 
+<hr><br><br>
 
-
-## __𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬__
-- Supported Sub-devices - `Devices that function through gateways`
-- Remote entities - `Supports IR remotes through native remote entity`
-- Auto-configure devices - `Requires a cloud API setup`
-- Automatic insertion - `Some fields requires a cloud API setup`
-- Devices discovery - `Discovers Tuya devices on your network`
-- Cloud API - `Only to help you to setup devices, can work without it.`
-
-
-
-<br>
-
-[𝐑𝐞𝐩𝐨𝐫𝐭𝐢𝐧𝐠 𝐚𝐧 𝐢𝐬𝐬𝐮𝐞](https://xzetsubou.github.io/hass-localtuya/report_issue/)
-
-<!-- ### Notes
-
-* Do not declare anything as "tuya", such as by initiating a "switch.tuya". Using "tuya" launches Home Assistant's built-in, cloud-based Tuya integration in lieu of localtuya.
-
-* This custom integration updates device status via pushing updates instead of polling, so status updates are fast (even when manually operated).
-
-* The integration also supports the Tuya IoT Cloud APIs, for the retrieval of info and of the local_keys of the devices. 
-The Cloud API account configuration is not mandatory (LocalTuya can work also without it) but is strongly suggested for easy retrieval (and auto-update after re-pairing a device) of local_keys. Cloud API calls are performed only at startup, and when a local_key update is needed. -->
-
-<details><summary> 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 </summary>
+<details><summary> 💫 • CREDITS </summary>
 <p>
     
-[rospogrigio](https://github.com/rospogrigio), the original maintainer of LocalTuya. This fork was created when the [upstream](https://github.com/rospogrigio/localtuya) version was at `v5.2.1`.
+[xZetsubou](https://github.com/xZetsubou/hass-localtuya)
 
-[NameLessJedi](https://github.com/NameLessJedi/localtuya-homeassistant) and [mileperhour](https://github.com/mileperhour/localtuya-homeassistant) being the major sources of inspiration, and whose code for switches is substantially unchanged.
+[rospogrigio](https://github.com/rospogrigio/localtuya)
 
-[TradeFace](https://github.com/TradeFace), for being the only one to provide the correct code for communication with the cover (in particular, the 0x0d command for the status instead of the 0x0a, and related needs such as double reply to be received): 
+[NameLessJedi](https://github.com/NameLessJedi/localtuya-homeassistant)
 
-sean6541, for the working (standard) Python Handler for Tuya devices.
+[mileperhour](https://github.com/mileperhour/localtuya-homeassistant)
 
-[jasonacox](https://github.com/jasonacox), for the [TinyTuya](https://github.com/jasonacox/tinytuya) project from where I got big help and references to upgrade integration.
+[TradeFace](https://github.com/TradeFace) 
 
-[uzlonewolf](https://github.com/uzlonewolf), for maintaining TinyTuya who improved the tool so much and introduced new features like new protocols, etc.
+sean6541
 
-[postlund](https://github.com/postlund), for the ideas, for coding 95% of the refactoring and boosting the quality of the upstream repository.
+[jasonacox](https://github.com/jasonacox)
+
+[TinyTuya](https://github.com/jasonacox/tinytuya)
+
+[uzlonewolf](https://github.com/uzlonewolf)
+
+[postlund](https://github.com/postlund)
 
 </p>
-</details> 
+</details>
+
+<br><hr>
+
+<div align="center">
+  <a href="https://hacs.xyz"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge" alt="HACS" style="height:5%;"></a>
+  <a href="https://ha-link.heyfordy.de/redirect/hacs_repository/?owner=Bitte-ein-Git&repository=ha_tuya&category=integration"><img src="https://img.shields.io/badge/HACS-%23ff8c00.svg?style=for-the-badge&logo=homeassistantcommunitystore&label=Add%20Repository%20to" alt="ADD TO REPO" style="height:5%;"></a>
+  <a href="https://ha-link.heyfordy.de/redirect/config_flow_start/?domain=localtuya"><img src="https://img.shields.io/badge/HA-%2318BCF2.svg?style=for-the-badge&logo=homeassistant&label=Add%20Integration%20to" alt="START CONFIG FLOW" style="height:5%;"></a>
+</div>
+
+[hacsbadge]: https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge
+[hacs1]: https://img.shields.io/badge/HACS-%23ff8c00.svg?style=for-the-badge&logo=homeassistantcommunitystore&label=Add%20Repository%20to
+[hacs2]: https://ha-link.heyfordy.de/badges/hacs_repository.svg
+[setup1]: https://img.shields.io/badge/HA-%2318BCF2.svg?style=for-the-badge&logo=homeassistant&label=Add%20Integration%20to
+[setup2]: https://ha-link.heyfordy.de/badges/config_flow_start.svg

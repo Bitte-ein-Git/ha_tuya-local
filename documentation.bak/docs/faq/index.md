@@ -29,7 +29,7 @@
 
 ### Devices Discovery
 !!! abstract ""
-    By default, `LocalTuya` includes a discovery feature that scans for Tuya devices within the local network and lists them in the config flow. 
+    By default, `🗿• Tuya +` includes a discovery feature that scans for Tuya devices within the local network and lists them in the config flow. 
     However, this function requires Home Assistant to have the same subnets as Tuya devices
 
 <br>

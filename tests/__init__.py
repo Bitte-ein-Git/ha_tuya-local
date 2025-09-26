@@ -74,7 +74,7 @@ def create_entry(config: dict[str, dict[str, Any]]):
         "options": {},
         "pref_disable_new_entities": None,
         "pref_disable_polling": None,
-        "title": "Mock LocalTuya",
+        "title": "Mock 🗿• Tuya +",
         "unique_id": None,
         "version": 1,
         "source": "user",

@@ -1,4 +1,4 @@
-"""Config flow for LocalTuya integration integration."""
+"""Config flow for 🗿• Tuya + integration integration."""
 
 import asyncio
 import errno
@@ -169,7 +169,7 @@ CUSTOM_DEVICE = {"Add Device Manually": "..."}
 
 
 class LocaltuyaConfigFlow(ConfigFlow, domain=DOMAIN):
-    """Handle a config flow for LocalTuya integration."""
+    """Handle a config flow for 🗿• Tuya + integration."""
 
     VERSION = ENTRIES_VERSION
 
@@ -237,7 +237,7 @@ class LocaltuyaConfigFlow(ConfigFlow, domain=DOMAIN):
 
 
 class LocalTuyaOptionsFlowHandler(OptionsFlow):
-    """Handle options flow for LocalTuya integration."""
+    """Handle options flow for 🗿• Tuya + integration."""
 
     def __init__(self, config_entry: ConfigEntry):
         """Initialize localtuya options flow."""
@@ -281,13 +281,14 @@ class LocalTuyaOptionsFlowHandler(OptionsFlow):
         placeholders = {}
         if user_input is not None:
             username = user_input.get(CONF_USERNAME)
+            configname = f"🗿• Tuya +"
             if user_input.get(CONF_NO_CLOUD):
                 new_data = self.config_entry.data.copy()
                 new_data.update(user_input)
                 for i in [CONF_CLIENT_ID, CONF_CLIENT_SECRET, CONF_USER_ID]:
                     new_data[i] = ""
 
-                return self._update_entry(new_data, new_title=username)
+                return self._update_entry(new_data, new_title=configname)
 
             cloud_api, res = await attempt_cloud_connection(user_input)
 
@@ -300,7 +301,7 @@ class LocalTuyaOptionsFlowHandler(OptionsFlow):
                         model = cloud_devs[dev_id].get(CONF_PRODUCT_NAME)
                         new_data[CONF_DEVICES][dev_id][CONF_MODEL] = model
 
-                return self._update_entry(new_data, new_title=username)
+                return self._update_entry(new_data, new_title=configname)
 
             errors["base"] = res["reason"]
             placeholders = {"msg": res["msg"]}
