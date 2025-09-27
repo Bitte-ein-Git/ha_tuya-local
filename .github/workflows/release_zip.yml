@@ -1,4 +1,4 @@
-name: "🌀 » Release '🗿• Tuya +' integration"
+name: "🌀 » Release '🗿• LocalTuya +' integration"
 
 on:
   workflow_dispatch:
@@ -14,13 +14,13 @@ jobs:
       - name: ZIP Component Dir
         run: |
           cd ${{ github.workspace }}/custom_components/localtuya
-          zip -r ha_tuya.zip ./
+          zip -r ha_tuya-local.zip ./
 
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ${{ github.workspace }}/custom_components/localtuya/ha_tuya.zip
-          asset_name: ha_tuya.zip
+          file: ${{ github.workspace }}/custom_components/localtuya/ha_tuya-local.zip
+          asset_name: ha_tuya-local.zip
           tag: ${{ github.ref }}
           overwrite: true

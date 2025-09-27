@@ -34,7 +34,7 @@
     4. Set `DP 3` Value to `false`
 
 === "Reload Service"
-    Reload all `🗿• Tuya +` Entries
+    Reload all `🗿• LocalTuya +` Entries
     ```yaml 
     service: localtuya.reload
     ```

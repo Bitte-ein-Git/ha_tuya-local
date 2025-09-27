@@ -3,7 +3,7 @@
 The Tuya integration integrates all Powered by Tuya devices you have added to the Tuya Smart and Tuya Smart Life apps.
 
 !!! note
-    🗿• Tuya + uses the cloud to obtain your device's data, making the configuration of devices much simpler.
+    🗿• LocalTuya + uses the cloud to obtain your device's data, making the configuration of devices much simpler.
 
 ## Configuration of the Tuya IoT Platform
 

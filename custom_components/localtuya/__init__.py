@@ -1,4 +1,4 @@
-"""The 🗿• Tuya + integration."""
+"""The 🗿• LocalTuya + integration."""
 
 import asyncio
 from dataclasses import dataclass
@@ -61,7 +61,7 @@ SERVICE_SET_DP_SCHEMA = vol.Schema(
 
 
 async def async_setup(hass: HomeAssistant, config: dict):
-    """Set up the 🗿• Tuya + integration component."""
+    """Set up the 🗿• LocalTuya + integration component."""
     hass.data.setdefault(DOMAIN, {})
 
     current_entries = hass.config_entries.async_entries(DOMAIN)
@@ -293,7 +293,7 @@ async def async_migrate_entry(hass: HomeAssistant, config_entry: ConfigEntry):
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
-    """Set up 🗿• Tuya + integration from a config entry."""
+    """Set up 🗿• LocalTuya + integration from a config entry."""
     if entry.version < ENTRIES_VERSION:
         _LOGGER.debug(
             "Skipping setup for entry %s since its version (%s) is old",
@@ -320,7 +320,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
     hass.data[DOMAIN][entry.entry_id] = hass_localtuya
 
     def _setup_devices(entry_devices: dict):
-        """Setup 🗿• Tuya + devices object."""
+        """Setup 🗿• LocalTuya + devices object."""
         devices = hass_localtuya.devices
         connect_to_devices: list[TuyaDevice] = []
 

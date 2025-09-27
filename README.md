@@ -6,7 +6,7 @@
   <ul align="center" style="list-style: none">
     <summary>
       <h1 style="border-bottom: 0; display: inline-block;">
-        <b>🗿• Tuya +</b></br>
+        <b>🗿• LocalTuya +</b></br>
           <sub><i><u>Home Assistant Integration 🏡</u></i></sub></h1>
     </summary>
   </ul>
@@ -23,7 +23,7 @@
 
 `» Supported Sub-devices / Gateway devices`
 
-`» Supports IR remotes through native remote entity`
+`» Supports some IR remotes through native remote entity`
 
 `» Auto discover/configure devices via Cloud API`
 
@@ -31,14 +31,14 @@
 
 
 ## Installation (Easy)
-[![ADD][hacs2]](https://ha-link.heyfordy.de/redirect/hacs_repository/?owner=Bitte-ein-Git&repository=ha_tuya&category=integration)
+[![ADD][hacs2]](https://ha-link.heyfordy.de/redirect/hacs_repository/?owner=Bitte-ein-Git&repository=ha_tuya-local&category=integration)
 ## Installation (Manual)
 1. Add this Repository to HACS:
    - HACS > 3 dots > "Add custom repository"
-   - URL: `Bitte-ein-Git/ha_tuya`
+   - URL: `Bitte-ein-Git/ha_tuya-local`
    - Type: Integration
 
-2. Select "**🗿• Tuya +**".
+2. Select "**🗿• LocalTuya +**".
 
 <hr>
 
@@ -54,9 +54,14 @@
    - Select "**Devices & services**"
    - At the bottom right select "**+ Add integration**"
 
-2. Select "**🗿• Tuya +**".
+2. Select "**🗿• LocalTuya +**".
 
-<hr><br><br>
+<hr><br>
+
+### More 'tuya' integrations:<br>
+- **[ha_tuya-local](https://github.com/Bitte-ein-Git/ha_tuya)**
+- **[ha_tuyarc](https://github.com/Bitte-ein-Git/ha_tuya-local)**
+<br><br>
 
 <details><summary> 💫 • CREDITS </summary>
 <p>
@@ -88,7 +93,7 @@ sean6541
 
 <div align="center">
   <a href="https://hacs.xyz"><img src="https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge" alt="HACS" style="height:5%;"></a>
-  <a href="https://ha-link.heyfordy.de/redirect/hacs_repository/?owner=Bitte-ein-Git&repository=ha_tuya&category=integration"><img src="https://img.shields.io/badge/HACS-%23ff8c00.svg?style=for-the-badge&logo=homeassistantcommunitystore&label=Add%20Repository%20to" alt="ADD TO REPO" style="height:5%;"></a>
+  <a href="https://ha-link.heyfordy.de/redirect/hacs_repository/?owner=Bitte-ein-Git&repository=ha_tuya-local&category=integration"><img src="https://img.shields.io/badge/HACS-%23ff8c00.svg?style=for-the-badge&logo=homeassistantcommunitystore&label=Add%20Repository%20to" alt="ADD TO REPO" style="height:5%;"></a>
   <a href="https://ha-link.heyfordy.de/redirect/config_flow_start/?domain=localtuya"><img src="https://img.shields.io/badge/HA-%2318BCF2.svg?style=for-the-badge&logo=homeassistant&label=Add%20Integration%20to" alt="START CONFIG FLOW" style="height:5%;"></a>
 </div>
 

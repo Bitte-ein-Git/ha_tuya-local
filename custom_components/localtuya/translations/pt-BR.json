@@ -89,7 +89,7 @@
             },
             "configure_device": {
                 "title": "Configurar conectividade do dispositivo",
-                "description": "Configure quaisquer detalhes do dispositivo{for_device} que estejam vazios (se houver) para permitir que o 🗿• Tuya + se conecte ao dispositivo.",
+                "description": "Configure quaisquer detalhes do dispositivo{for_device} que estejam vazios (se houver) para permitir que o 🗿• LocalTuya + se conecte ao dispositivo.",
                 "data": {
                     "friendly_name": "Nome do Dispositivo",
                     "host": "Endereço IP",
@@ -109,7 +109,7 @@
             },
             "device_setup_method": {
                 "title": "Configurar entidades do dispositivo",
-                "description": "O 🗿• Tuya + tentará descobrir o restante da configuração automaticamente. No entanto, se isso não funcionar para o seu dispositivo ou se desejar ajustar configurações, escolha a opção `manual`.",
+                "description": "O 🗿• LocalTuya + tentará descobrir o restante da configuração automaticamente. No entanto, se isso não funcionar para o seu dispositivo ou se desejar ajustar configurações, escolha a opção `manual`.",
                 "menu_options": {
                     "auto_configure_device":"Descobrir entidades do dispositivo automaticamente",
                     "pick_entity_type": "Configurar entidades do dispositivo manualmente",
@@ -134,7 +134,7 @@
             },
             "choose_template":{
                 "title": "Importar arquivo de modelo",
-                "description": "Os arquivos de modelo estão localizados no diretório 'templates' ([Mais Informações](https://github.com/Bitte-ein-Git/ha_tuya/discussions/13)).",
+                "description": "Os arquivos de modelo estão localizados no diretório 'templates' ([Mais Informações](https://github.com/Bitte-ein-Git/ha_tuya-local/discussions/13)).",
                 "data": {
                     "templates": "Escolher modelo"
                 }
@@ -251,5 +251,5 @@
             }
         }
     },
-    "title": "🗿• Tuya +"
+    "title": "🗿• LocalTuya +"
 }

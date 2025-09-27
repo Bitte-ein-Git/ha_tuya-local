@@ -1,7 +1,7 @@
 # Add new devices    
 
 !!! Note "Before You Start"
-    You must have your device's `localkey` and `ID` to add your device to **🗿• Tuya +**. The easiest way is to configure the Cloud API account in the integration.
+    You must have your device's `localkey` and `ID` to add your device to **🗿• LocalTuya +**. The easiest way is to configure the Cloud API account in the integration.
 
     If you want to obtain the `id and localkey` without configuring the cloud API, good guides are available for <br>
     [TuyaAPI Setup](https://github.com/codetheweb/tuyapi/blob/master/docs/SETUP.md){target=_blank}, 
@@ -20,7 +20,7 @@ Go to hub `Configure` (1) a menu will show up (2) Choose `Add new device`
 
 
 !!! Note "Discovery"
-    By default, `🗿• Tuya +` includes a discovery feature that scans for Tuya devices within the local network and lists them in the config flow. However, this function requires Home Assistant to be connected to the same network as the Tuya devices and to have the same subnets.
+    By default, `🗿• LocalTuya +` includes a discovery feature that scans for Tuya devices within the local network and lists them in the config flow. However, this function requires Home Assistant to be connected to the same network as the Tuya devices and to have the same subnets.
 
 1. Selecting `Add new device` will display a new page with the listed discovered devices (1) <br> Select the device you wish to configure, then click on `Submit`.
     {.annotate}
@@ -73,7 +73,7 @@ Go to hub `Configure` (1) a menu will show up (2) Choose `Add new device`
 
 ### Configure device methods
 !!! Abstract "How does localtuya work"
-    Before setting up device entities, let me explain how `🗿• Tuya +` control devices: Tuya devices have different functions such as Switch 1, Switch 2, and more, each identified by a DP ID. `🗿• Tuya +` configures entities by using and managing the function values using their respective DP IDs.<br>
+    Before setting up device entities, let me explain how `🗿• LocalTuya +` control devices: Tuya devices have different functions such as Switch 1, Switch 2, and more, each identified by a DP ID. `🗿• LocalTuya +` configures entities by using and managing the function values using their respective DP IDs.<br>
     _LocalTuya will pull these functions for you to set them up as Home Assistant entities_
 
 #### Discover device entities automatically 

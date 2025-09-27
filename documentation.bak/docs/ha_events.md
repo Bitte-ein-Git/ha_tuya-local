@@ -2,7 +2,7 @@
 !!! note ""
     Your device must be added to localtuya to use Events
 
-🗿• Tuya + fires an [events](https://www.home-assistant.io/docs/configuration/events/){target="_blank"} on `homeassisstant` 
+🗿• LocalTuya + fires an [events](https://www.home-assistant.io/docs/configuration/events/){target="_blank"} on `homeassisstant` 
 that can be used on automation or monitoring your device behaviour from [Developer tools -> events](https://my.home-assistant.io/redirect/developer_events/){target="_blank"} (1)<Br>
 {.annotate}
 

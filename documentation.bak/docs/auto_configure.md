@@ -1,5 +1,5 @@
 # Auto configure devices
-🗿• Tuya + can disocver you device entities if cloud is enable because the feature at the moment rely on `DP code` and [Devices Category](https://developer.tuya.com/en/docs/iot/standarddescription?id=K9i5ql6waswzq#title-6-List%20of%20category%20code){target="_blank"}.
+🗿• LocalTuya + can disocver you device entities if cloud is enable because the feature at the moment rely on `DP code` and [Devices Category](https://developer.tuya.com/en/docs/iot/standarddescription?id=K9i5ql6waswzq#title-6-List%20of%20category%20code){target="_blank"}.
 
 By known the `category` we use that to get all the possible entities from stored data.<br> Data stored in `/localtuya/core/ha_entities` (1)
 {.annotate}
@@ -47,7 +47,7 @@ Using `LocalTuyaEntity class` we pass entity parameters `id` and `DPs config nam
     |entity_category    |No         |EntityCategory | The `category` of the entity e.g `EntityCategory.CONFIG`
     |device_class       |No         |DeviceClass    | The `device_class` of the entity if supported `depends on platform` e.g for switches `SwitchDeviceClass.OUTLET`
     |state_class        |No         |StateClass     | `state class` if entity supported e.g `SensorStateClass.MEASUREMENT`
-    |custom_configs     |No         |dict           | 🗿• Tuya + configs.
+    |custom_configs     |No         |dict           | 🗿• LocalTuya + configs.
 
     #### Helpers
     | Parameter              | type                     | Description

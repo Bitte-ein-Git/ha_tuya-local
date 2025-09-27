@@ -1,1 +1,1 @@
-"""The core of 🗿• Tuya +"""
+"""The core of 🗿• LocalTuya +"""

@@ -89,7 +89,7 @@
             },
             "configure_device": {
                 "title": "Configura la connettività del dispositivo",
-                "description": "Configura eventuali dettagli del dispositivo {for_device} vuoti (se presenti) per consentire a 🗿• Tuya + di connettersi al dispositivo.",
+                "description": "Configura eventuali dettagli del dispositivo {for_device} vuoti (se presenti) per consentire a 🗿• LocalTuya + di connettersi al dispositivo.",
                 "data": {
                     "friendly_name": "Nome dispositivo",
                     "host": "Indirizzo IP",
@@ -109,7 +109,7 @@
             },
             "device_setup_method": {
                 "title": "Configura entità del dispositivo",
-                "description": "🗿• Tuya + cercherà di scoprire automaticamente il resto della configurazione. Tuttavia, se ciò non funziona per il tuo dispositivo o se desideri regolare le impostazioni, scegli l'opzione `manuale`.",
+                "description": "🗿• LocalTuya + cercherà di scoprire automaticamente il resto della configurazione. Tuttavia, se ciò non funziona per il tuo dispositivo o se desideri regolare le impostazioni, scegli l'opzione `manuale`.",
                 "menu_options": {
                     "auto_configure_device": "Scopri entità del dispositivo automaticamente",
                     "pick_entity_type": "Configura manualmente entità del dispositivo",
@@ -134,7 +134,7 @@
             },
             "choose_template": {
                 "title": "Importa file modello",
-                "description": "I file modello si trovano nella directory `templates` ([Maggiori informazioni](https://github.com/Bitte-ein-Git/ha_tuya/discussions/13)).",
+                "description": "I file modello si trovano nella directory `templates` ([Maggiori informazioni](https://github.com/Bitte-ein-Git/ha_tuya-local/discussions/13)).",
                 "data": {
                     "templates": "Scegli modello"
                 }
@@ -251,5 +251,5 @@
             }
         }
     },
-    "title": "🗿• Tuya +"
+    "title": "🗿• LocalTuya +"
 }

@@ -50,7 +50,7 @@ MIN_OFFLINE_EVENTS = 5 * 60 // HEARTBEAT_INTERVAL
 
 
 class HassLocalTuyaData(NamedTuple):
-    """🗿• Tuya + data stored in homeassistant data object."""
+    """🗿• LocalTuya + data stored in homeassistant data object."""
 
     cloud_data: TuyaCloudApi
     devices: dict[str, TuyaDevice]

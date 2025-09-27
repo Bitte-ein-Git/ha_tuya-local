@@ -1,4 +1,4 @@
-"""Config flow for 🗿• Tuya + integration integration."""
+"""Config flow for 🗿• LocalTuya + integration integration."""
 
 import asyncio
 import errno
@@ -169,7 +169,7 @@ CUSTOM_DEVICE = {"Add Device Manually": "..."}
 
 
 class LocaltuyaConfigFlow(ConfigFlow, domain=DOMAIN):
-    """Handle a config flow for 🗿• Tuya + integration."""
+    """Handle a config flow for 🗿• LocalTuya + integration."""
 
     VERSION = ENTRIES_VERSION
 
@@ -237,7 +237,7 @@ class LocaltuyaConfigFlow(ConfigFlow, domain=DOMAIN):
 
 
 class LocalTuyaOptionsFlowHandler(OptionsFlow):
-    """Handle options flow for 🗿• Tuya + integration."""
+    """Handle options flow for 🗿• LocalTuya + integration."""
 
     def __init__(self, config_entry: ConfigEntry):
         """Initialize localtuya options flow."""
@@ -281,7 +281,7 @@ class LocalTuyaOptionsFlowHandler(OptionsFlow):
         placeholders = {}
         if user_input is not None:
             username = user_input.get(CONF_USERNAME)
-            configname = f"🗿• Tuya +"
+            configname = f"🗿• LocalTuya +"
             if user_input.get(CONF_NO_CLOUD):
                 new_data = self.config_entry.data.copy()
                 new_data.update(user_input)

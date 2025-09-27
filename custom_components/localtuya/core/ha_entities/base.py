@@ -40,7 +40,7 @@ class CLOUD_VALUE:
 
 class LocalTuyaEntity:
     """
-    🗿• Tuya + entity config.
+    🗿• LocalTuya + entity config.
     Each platform has unique custom_configs to give the required data to validate entity setups.
     e.g. Switch req( Friendly_Name and DP(Code) )
     """

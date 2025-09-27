@@ -94,7 +94,7 @@
             },
             "configure_device": {
                 "title": "Configure device connectivity",
-                "description": "Configure any device details{for_device} that are empty (if any) to allow 🗿• Tuya + to connect to the device.",
+                "description": "Configure any device details{for_device} that are empty (if any) to allow 🗿• LocalTuya + to connect to the device.",
                 "data": {
                     "friendly_name": "Device Name",
                     "host": "IP Address",
@@ -114,7 +114,7 @@
             },
             "device_setup_method": {
                 "title": "Configure device entities",
-                "description": "🗿• Tuya + will try to discover the rest of the configuration automatically. However, if this does not work for your device or you would like to tweak settings, choose the `manual` option.",
+                "description": "🗿• LocalTuya + will try to discover the rest of the configuration automatically. However, if this does not work for your device or you would like to tweak settings, choose the `manual` option.",
                 "menu_options": {
                     "auto_configure_device":"Discover device entities automatically",
                     "pick_entity_type": "Configure device entities manually",
@@ -139,7 +139,7 @@
             },
             "choose_template":{
                 "title": "Import template file",
-                "description": "Template files are located in the `templates` directory ([More Info](https://github.com/Bitte-ein-Git/ha_tuya/discussions/13)).",
+                "description": "Template files are located in the `templates` directory ([More Info](https://github.com/Bitte-ein-Git/ha_tuya-local/discussions/13)).",
                 "data": {
                     "templates": "Choose template"
                 }
@@ -268,5 +268,5 @@
             }
         }
     },
-    "title": "🗿• Tuya +"
+    "title": "🗿• LocalTuya +"
 }

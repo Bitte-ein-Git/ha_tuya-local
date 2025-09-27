@@ -52,7 +52,7 @@ def flow_schema(dps):
 
 
 class LocalTuyaHumidifier(LocalTuyaEntity, HumidifierEntity):
-    """Representation of a 🗿• Tuya + Humidifier."""
+    """Representation of a 🗿• LocalTuya + Humidifier."""
 
     _dp_mode = CONF_HUMIDIFIER_MODE_DP
     _available_modes = CONF_HUMIDIFIER_AVAILABLE_MODES
